@@ -1,0 +1,5 @@
+CREATE USER [ACER-PC\ROR];
+
+
+GO
+

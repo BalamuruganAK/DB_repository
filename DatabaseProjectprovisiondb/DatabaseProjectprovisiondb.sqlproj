@@ -9,7 +9,6 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include=".vscode\tasks.json" />
-    <None Include="DatabaseProjectprovisiondb_1.publish.xml" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />

@@ -7,3 +7,6 @@ c:\Users\Balamurugan\WorkSpace\DatabaseProjectprovisiondb\obj\Debug\postdeploy.s
 c:\Users\Balamurugan\WorkSpace\DatabaseProjectprovisiondb\obj\Debug\predeploy.sql
 C:\Users\Balamurugan\WorkSpace\DatabaseProjectprovisiondb\obj\Debug\DatabaseProjectprovisiondb.dll
 C:\Users\Balamurugan\WorkSpace\DatabaseProjectprovisiondb\obj\Debug\DatabaseProjectprovisiondb.pdb
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectprovisiondb\bin\Debug\DatabaseProjectprovisiondb.deps.json
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectprovisiondb\bin\Debug\DatabaseProjectprovisiondb.dll
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectprovisiondb\bin\Debug\DatabaseProjectprovisiondb.pdb
