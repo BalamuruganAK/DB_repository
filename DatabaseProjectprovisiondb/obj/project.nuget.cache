@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rkLsDwhE+5w=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Balamurugan\\WorkSpace\\DatabaseProjectprovisiondb\\DatabaseProjectprovisiondb.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Balamurugan\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\Balamurugan\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

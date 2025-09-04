@@ -14,7 +14,9 @@ exec rpt_Daywise_Locker '20150317','20150323'
 		group by convert(varchar(12),cc.CashDateTime,112))
 		
 		Select SUM(c.Sales) Sales, SUM(c.Expense) Expense, SUM(c.net) net, 
-			SUM(c.SwipeCard) SwipeCard, SUM(c.Locker ) Locker,SUM(c.Adjustment) Adjustment
+			--SUM(c.SwipeCard) SwipeCard, 
+			SUM(c.Locker ) Locker
+			--,SUM(c.Adjustment) Adjustment
 	from tbl_Cash c
 	where c.CashID in 
 		(select MAX(cc.CashID) 
