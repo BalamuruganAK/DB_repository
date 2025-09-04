@@ -1,0 +1,11 @@
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\bin\Debug\DatabaseProjectStockWatch_915.dacpac
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\bin\Debug\DatabaseProjectStockWatch_915.deps.json
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\bin\Debug\DatabaseProjectStockWatch_915.dll
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\bin\Debug\DatabaseProjectStockWatch_915.pdb
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\obj\Debug\DatabaseProjectStockWatch_915.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\obj\Debug\Model.xml
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\obj\Debug\refactor.xml
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\obj\Debug\postdeploy.sql
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\obj\Debug\predeploy.sql
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\obj\Debug\DatabaseProjectStockWatch_915.dll
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectStockWatch_915\obj\Debug\DatabaseProjectStockWatch_915.pdb
