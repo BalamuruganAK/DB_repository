@@ -17939,11 +17939,5 @@ END]]></Value>
 				<Property Name="HeaderContents" Value="-- =============================================&#xD;&#xA;-- Author:&#x9;&#x9;&lt;Author,,Name&gt;&#xD;&#xA;-- Create date: &lt;Create Date,,&gt;&#xD;&#xA;-- Description:&#x9;&lt;Description,,&gt;&#xD;&#xA;-- =============================================&#xD;&#xA;CREATE PROCEDURE [dbo].[Update_StockUpdateHdr]&#xD;&#xA;&#x9;AS" />
 			</Annotation>
 		</Element>
-		<Element Type="SqlUser" Name="[LAPTOP-EAD9I64A\Balamurugan]">
-			<Property Name="AuthenticationType" Value="3" />
-			<Relationship Name="Login">
-				<Entry />
-			</Relationship>
-		</Element>
 	</Model>
 </DataSchemaModel>
