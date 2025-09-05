@@ -1,6 +1,6 @@
 CREATE LOGIN [LAPTOP-EAD9I64A\Balamurugan]
     FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
-ALTER ROLE [db_owner] ADD MEMBER [LAPTOP-EAD9I64A\Balamurugan];
+
 
 GO
 
