@@ -1,0 +1,5 @@
+CREATE USER [LAPTOP-EAD9I64A\Balamurugan] FOR LOGIN [LAPTOP-EAD9I64A\Balamurugan];
+
+
+GO
+
