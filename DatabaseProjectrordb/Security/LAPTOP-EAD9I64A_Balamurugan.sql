@@ -1,6 +1,4 @@
 CREATE LOGIN [LAPTOP-EAD9I64A\Balamurugan]
     FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
-
-
 GO
 

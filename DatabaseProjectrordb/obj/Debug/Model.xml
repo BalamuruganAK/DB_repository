@@ -56,24 +56,6 @@
 				</Entry>
 			</Relationship>
 		</Element>
-		<Element Type="SqlRoleMembership">
-			<Relationship Name="Member">
-				<Entry>
-					<References Name="[LAPTOP-EAD9I64A\Balamurugan]" Disambiguator="5" />
-				</Entry>
-			</Relationship>
-			<Relationship Name="Role">
-				<Entry>
-					<References ExternalSource="BuiltIns" Name="[db_owner]" />
-				</Entry>
-			</Relationship>
-		</Element>
-		<Element Type="SqlUser" Name="[ACER-PC\ROR]">
-			<Property Name="AuthenticationType" Value="3" />
-			<Relationship Name="Login">
-				<Entry />
-			</Relationship>
-		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[Cancel_Bill]">
 			<Property Name="BodyScript">
 				<Value><![CDATA[
@@ -12204,19 +12186,8 @@ END]]></Value>
 			<Property Name="IsCheckPolicyOn" Value="False" />
 			<Annotation Type="GloballyScoped" />
 		</Element>
-		<Element Type="SqlUser" Name="[LAPTOP-EAD9I64A\Balamurugan]" Disambiguator="5">
-			<Property Name="LoginIdentifierScript">
-				<Value><![CDATA[[LAPTOP-EAD9I64A\Balamurugan]]]></Value>
-			</Property>
-			<Property Name="AuthenticationType" Value="3" />
-			<Relationship Name="Login">
-				<Entry>
-					<References Name="[LAPTOP-EAD9I64A\Balamurugan]" />
-				</Entry>
-			</Relationship>
-		</Element>
-		<Element Type="SqlLogin" Name="[roruser]" Disambiguator="2">
-			<Property Name="Password" Value="uaw?{sy{&amp;v|cuhsokxp7xr?cmsFT7_&amp;#$!~&lt;yevfalMu~yMg" />
+		<Element Type="SqlLogin" Name="[roruser]" Disambiguator="4">
+			<Property Name="Password" Value="roruser" />
 			<Annotation Type="GloballyScoped" />
 		</Element>
 		<Element Type="SqlUser" Name="[roruser]">
@@ -12226,7 +12197,7 @@ END]]></Value>
 			<Property Name="AuthenticationType" Value="1" />
 			<Relationship Name="Login">
 				<Entry>
-					<References Name="[roruser]" Disambiguator="2" />
+					<References Name="[roruser]" Disambiguator="4" />
 				</Entry>
 			</Relationship>
 		</Element>
