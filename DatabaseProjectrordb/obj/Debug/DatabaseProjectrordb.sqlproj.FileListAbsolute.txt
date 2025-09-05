@@ -1,0 +1,12 @@
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\bin\Debug\DatabaseProjectrordb.dacpac
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\bin\Debug\DatabaseProjectrordb.deps.json
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\bin\Debug\DatabaseProjectrordb.dll
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\bin\Debug\DatabaseProjectrordb.pdb
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\obj\Debug\DatabaseProjectrordb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\obj\Debug\DatabaseProjectrordb.sourcelink.json
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\obj\Debug\Model.xml
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\obj\Debug\refactor.xml
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\obj\Debug\postdeploy.sql
+c:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\obj\Debug\predeploy.sql
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\obj\Debug\DatabaseProjectrordb.dll
+C:\Users\Balamurugan\WorkSpace\DatabaseProjectrordb\obj\Debug\DatabaseProjectrordb.pdb
