@@ -11,6 +11,9 @@
     <None Include=".vscode\tasks.json" />
     <None Include="DatabaseProjectrordb_1.publish.xml" />
   </ItemGroup>
+<TargetFrameworkVersion>
+    v4.8
+  </TargetFrameworkVersion>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>
