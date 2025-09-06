@@ -8,22 +8,22 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build-deploy:
-    runs-on: windows-latest
-    environment: dev   # 👈 uses your dev environment and secrets
+#  build-deploy:
+ #   runs-on: windows-latest
+  #  environment: dev   # 👈 uses your dev environment and secrets
 
     steps:
     # Step 1: Checkout repository
-    - name: Checkout repository
-      uses: actions/checkout@v3
+   # - name: Checkout repository
+    #  uses: actions/checkout@v3
 
     # Step 2: Setup MSBuild
-    - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v2
+    #- name: Setup MSBuild
+     # uses: microsoft/setup-msbuild@v2
 
     # Step 3: Build the database project (.dacpac)
-    - name: Build Database Project
-      run: msbuild DatabaseProjectrordb/DatabaseProjectrordb.sqlproj /t:Build /p:Configuration=Release
+    #- name: Build Database Project
+     # run: msbuild DatabaseProjectrordb/DatabaseProjectrordb.sqlproj /t:Build /p:Configuration=Release
 
     # Step 4: Deploy .dacpac to SQL Server
     - name: Deploy DACPAC
