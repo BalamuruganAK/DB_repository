@@ -23,7 +23,7 @@ jobs:
 
     # Step 3: Build the database project (.dacpac)
     - name: Build Database Project
-      run: msbuild **/*.sqlproj /t:Build /p:Configuration=Release
+      run: msbuild DatabaseProjectrordb/DatabaseProjectrordb.sqlproj /t:Build /p:Configuration=Release
 
     # Step 4: Deploy .dacpac to SQL Server
     - name: Deploy DACPAC
