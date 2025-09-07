@@ -7,8 +7,8 @@
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
     <TargetDatabaseSet>True</TargetDatabaseSet>
-    <RuntimeIdentifier>win</RuntimeIdentifier>
     <TargetFrameworks>.NETFramework,Version=v4.7.2</TargetFrameworks>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
   </PropertyGroup>
   <ItemGroup>
     <None Include=".vscode\tasks.json" />
