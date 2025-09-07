@@ -3,13 +3,17 @@
   <Sdk Name="Microsoft.Build.Sql" Version="1.0.0" />
   <PropertyGroup>
     <Name>DatabaseProjectrordb</Name>
-    <ProjectGuid>{016BEDBD-5A91-4210-8DA0-E01F196B160E}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql140DatabaseSchemaProvider</DSP>
+    <ProjectGuid>{016bedbd-5a91-4210-8da0-e01f196b160e}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <ModelCollation>1033, CI</ModelCollation>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
   </PropertyGroup>
   <ItemGroup>
     <None Include=".vscode\tasks.json" />
     <None Include="DatabaseProjectrordb_1.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vscode\" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
