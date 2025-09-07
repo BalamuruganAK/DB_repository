@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "umTI0syb6Qw=",
+  "dgSpecHash": "aOPUweonrDU=",
   "success": true,
   "projectFilePath": "c:\\Users\\Balamurugan\\WorkSpace\\DatabaseProjectrordb\\DatabaseProjectrordb.sqlproj",
   "expectedPackageFiles": [
     "C:\\Users\\Balamurugan\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "C:\\Users\\Balamurugan\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net20\\1.0.3\\microsoft.netframework.referenceassemblies.net20.1.0.3.nupkg.sha512"
+    "C:\\Users\\Balamurugan\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
   ],
   "logs": []
 }
