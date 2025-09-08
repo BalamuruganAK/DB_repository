@@ -29,7 +29,7 @@ jobs:
     - name: Deploy DACPAC
       run: |
         "C:\Program Files\Microsoft SQL Server\170\DAC\bin\sqlpackage.exe" /Action:Publish 
-          /SourceFile:"C:\Windows\Temp\DatabaseProjectrordb.dacpac" 
+          /SourceFile:"$(Get-ChildItem -Path **\bin\Release\*.dacpac | Select-Object -First 1).FullName"
           /TargetServerName:"${{ secrets.DB_SERVER }}" 
           /TargetDatabaseName:"${{ secrets.DB_NAME }}" 
           /TargetUser:"${{ secrets.DB_USER }}" 
