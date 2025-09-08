@@ -28,7 +28,7 @@ jobs:
     # Step 4: Deploy .dacpac to SQL Server
     - name: Deploy DACPAC
       run: |
-        sqlpackage /Action:Publish `
+        C:\Program Files\Microsoft SQL Server\170\DAC\bin\sqlpackage /Action:Publish `
           /SourceFile:"$(Get-ChildItem -Path **\bin\Release\*.dacpac | Select-Object -First 1).FullName" `
           /TargetServerName:"${{ secrets.DB_SERVER }}" `
           /TargetDatabaseName:"${{ secrets.DB_NAME }}" `
