@@ -8,7 +8,7 @@
     <ModelCollation>1033, CI</ModelCollation>
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <TargetFrameworks>.NETFramework,Version=v4.7.2</TargetFrameworks>
-    <RuntimeIdentifier="win-x64" />
+    <RuntimeIdentifier>win</RuntimeIdentifier>
   </PropertyGroup>
   <ItemGroup>
     <None Include=".vscode\tasks.json" />
