@@ -14,6 +14,20 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net472.targets": {}
         }
       }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net472": "1.0.3"
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net472/1.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NETFramework.ReferenceAssemblies.net472.targets": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -507,6 +521,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
       }
     }
   }
