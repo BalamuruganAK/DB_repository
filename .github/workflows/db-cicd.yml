@@ -33,6 +33,6 @@ jobs:
           /TargetServerName:"${{ secrets.DB_SERVER }}" `
           /TargetDatabaseName:"${{ secrets.DB_NAME }}" `
           /TargetUser:"${{ secrets.DB_USER }}" `
-          /TargetPassword:"${{ secrets.DB_PASSWORD }}"
-
+          /TargetPassword:"${{ secrets.DB_PASSWORD }}" `
+      shell: cmd
 
