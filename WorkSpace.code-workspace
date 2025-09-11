@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"dataworkspace.excludedProjects": [
+			"ProjProvisiondb/ProjProvisiondb.sqlproj",
+			"DatabaseProjectStockWatch_915/DatabaseProjectStockWatch_915.sqlproj",
+			"projProdb/projProdb.sqlproj",
+			"MyProj/MyProj.sqlproj",
+			"myproj/myproj.sqlproj",
+			"DatabaseProjectprovisiondb/DatabaseProjectprovisiondb.sqlproj"
+		]
+	}
+}

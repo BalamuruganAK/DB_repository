@@ -1,0 +1,6 @@
+CREATE TABLE Customer (
+    ID INT PRIMARY KEY IDENTITY(1,1),
+    Name VARCHAR(100) NOT NULL,
+    Address VARCHAR(255),
+    Phone VARCHAR(20)
+);
